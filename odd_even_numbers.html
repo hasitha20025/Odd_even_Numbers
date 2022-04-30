@@ -1,0 +1,34 @@
+<!Doctype html>
+<html>
+	<head>
+
+	<script language="javascript" type="text/javascript">
+		function calculate(){
+		
+		  var num=document.getElementById("num").value;
+		  
+		  if (num%2==0){
+		     document.getElementById("msgbox").innerText="even number";
+           
+		  }		
+	
+		  else {
+          	
+		     document.getElementById("msgbox").innerText="odd number";
+          }		
+		 	
+		}
+
+	</script>
+    </head>
+	<body>
+		<form>
+		Enter Number:<input type="text" id="num" name="number"><br/>
+		<input type="button" value="calculate" onclick="calculate()">
+		
+		</form>
+		<div id ="msgbox"></div>
+	
+	
+	</body>
+</html>	
